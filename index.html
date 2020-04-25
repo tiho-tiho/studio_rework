@@ -21,7 +21,7 @@
 <div class="pusher"> <!--вся страница в пушере в этом =(((((((( НО БЕЗ НЕГО НЕЛЬЗЯ!!-->
 
   <!-- ВСПЛЫВАЮЩЕЕ МЕНЮ ДЕСКТОП-->
-  <div class="ui top fixed menu transition hidden">
+  <div class="ui top fixed menu transition hidden tablet computer large screen widescreen only">
     <div class="ui container">
       <a class="item">Цены</a>
       <a class="item">Примеры работ</a>
@@ -33,10 +33,10 @@
   <!-- /ВСПЛЫВАЮЩЕЕ МЕНЮ ДЕСКТОП-->
 
   <!-- ПЕРВЫЙ ЭКРАН ДЕСКТОП -->
-  <div class="first-screen" style="padding: 30px">
+  <div class="first-screen tablet computer large screen widescreen only" style="padding: 30px">
 
     <!-- СТАТИЧНОЕ МЕНЮ ДЕСКТОП-->
-    <div class="ui top menu transparent-background container no-shadow no-border">
+    <div class="ui top menu transparent-background container no-shadow no-border tablet computer large screen widescreen only">
       <a class="item white-f5-color menu-no-border">Цены</a>
       <a class="item white-f5-color menu-no-border">Примеры работ</a>
       <a class="item white-f5-color menu-no-border">Отзывы</a>
@@ -66,7 +66,7 @@
   <!-- УСЛУГИ-->
 
   <!-- УСЛУГИ ДЕСКТОП -->
-  <div class="row">
+  <div class="row tablet computer large screen widescreen only">
     <div class="ui container">
       <div class="ui divider horizontal mt-50">
         <p class="uppercase-text fs-48">что почем </p>
@@ -124,14 +124,14 @@
 
   <!--УСЛУГИ МОБ-->
   <div class="row ui container center-text vm-50 fs-20 mobile only">
-    <h3 class="uppercase-text fs-45">Запись</h3>
+    <h3 class="uppercase-text fs-20">Запись</h3>
     <p class="fw-700">400р/час</p>
     <p>вокал, рэп, гитара, бас (и другие инструменты)</p>
     <div class="ui divider horizontal">
       <i class="fs-48 material-icons">audiotrack</i>
     </div>
     <div class="row center-text vm-50 fs-20">
-      <h3 class="uppercase-text fs-45">Аранжировка</h3>
+      <h3 class="uppercase-text fs-20">Аранжировка</h3>
       <p>от <span class="fw-700"> 1000 рублей </span></p>
       <p>за легкую аранжировку в электронном стиле для авторских песен, стихов, аудиокниг</p>
     </div>
@@ -139,7 +139,7 @@
       <i class="fs-48 material-icons">audiotrack</i>
     </div>
     <div class="row center-text vm-50 fs-20">
-      <h3 class="uppercase-text fs-45">Сведение</h3>
+      <h3 class="uppercase-text fs-20">Сведение</h3>
       <p>от <span class="fw-700">500 рублей</span></p>
       <p>обсуждается индивидуально, так как на стоимость влияет множество факторов</p>
     </div>
@@ -147,7 +147,7 @@
       <div class=""><img src="img/icons/drumm.png"></div>
     </div>
     <div class="row center-text vm-50 fs-20">
-      <h3 class="uppercase-text fs-24">Практика на барабанах</h3>
+      <h3 class="uppercase-text fs-20">Практика на барабанах</h3>
       <p>стоимость зависит от наличия палочек и оборудования</p>
     </div>
   </div>
@@ -159,11 +159,11 @@
   <div class="row">
     <div class="ui container">
       <div class="ui divider horizontal mt-50">
-        <p class="uppercase-text fs-48">примеры работ</p>
+        <p class="uppercase-text fs-48 tablet computer large screen widescreen only">примеры работ</p>
       </div>
 
       <!-- ДЕСКТОП ПРИМЕРЫ РАБОТ -->
-      <div class="ui grid">
+      <div class="ui grid tablet computer large screen widescreen only">
         <div class="four column row vm-50">
           <div class="column">
             <div class="ui segment">
@@ -194,7 +194,11 @@
       <!-- /ДЕСКТОП ПРИМЕРЫ РАБОТ -->
 
       <!-- МОБИЛЬНЫЕ ПРИМЕРЫ РАБОТ -->
-      <div class="ui grid">
+      <div class="ui container">
+        <div class="ui divider horizontal">
+          <p class="fs-20 fw-700 center-text mobile only">Примеры работ</p></div>
+      </div>
+      <div class="ui grid mt-50">
         <div class="column mobile only">
           <div class="mobile only">
             <div class="fotorama"
@@ -232,7 +236,7 @@
   <!-- СОЦ КНОПКИ -->
   <div class="row">
     <div class="ui container">
-      <p class="ff-bad fs-24 fw-700 center-text mt-50">Смотреть больше в соц сетях:</p>
+      <p class="ff-bad fs-24 fw-700 center-text mt-50">Больше в соц сетях</p>
       <div class="ui grid">
         <div class="four column row vm-50">
           <div class="column center-text">
@@ -242,9 +246,9 @@
             <img src="img/icons/instagram.png">
           </div>
           <div class="column center-text">
-            <a href="https://vk.com/poizone">
+            <!--<a href="https://vk.com/poizone">-->
               <img src="img/icons/vk.png">
-            </a>
+            <!--</a>-->
           </div>
           <div class="column center-text">
             <img src="img/icons/telegram.png">
@@ -259,7 +263,8 @@
   <!-- ФОТО СТУДИИ -->
   <div class="row ui container">
     <div class="ui divider horizontal mt-50">
-      <p class="uppercase-text fs-48">фото студии</p>
+      <p class="uppercase-text fs-48 tablet computer large screen widescreen only">фото</p>
+      <p class="uppercase-text fs-20 mobile only">фото</p>
     </div>
     <div class="ui segment mt-50">
       <div class="fotorama"
