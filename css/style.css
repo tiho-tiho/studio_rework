@@ -12,10 +12,10 @@ img{
   filter: grayscale(100%);
 }
 
-.fotorama__wrap.fotorama__wrap--css3.fotorama__wrap--slide.fotorama__wrap--toggle-arrows,
-.fotorama__stage__frame.fotorama__loaded.fotorama__loaded--img.fotorama__active img {
-  width: 100% !important;
-}
+/*.fotorama__wrap.fotorama__wrap--css3.fotorama__wrap--slide.fotorama__wrap--toggle-arrows,*/
+/*.fotorama__stage__frame.fotorama__loaded.fotorama__loaded--img.fotorama__active img {*/
+/*  width: 100% !important;*/
+/*}*/
 
 .hov_color:hover{
   -webkit-transition: 2s;
