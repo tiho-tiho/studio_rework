@@ -4,119 +4,167 @@
   <meta charset="UTF-8">
   <title>Звукозапись Poizone Studio</title>
 
-  <link rel="shortcut icon" type="image/png" href="favicon.png"/>
+
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 
+  <link rel="shortcut icon" type="image/png" href="favicon.png"/>
   <link rel="stylesheet" type="text/css" href="css/semantic.css">
   <link rel="stylesheet" type="text/css" href="css/responsive-semantic-ui.css">
   <link rel="stylesheet" type="text/css" href="css/style.css">
   <script src="js/font_awesome.js"></script>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="css/fotorama.css">
+  <link href="https://fonts.googleapis.com/css2?family=Bad+Script&display=swap" rel="stylesheet">
 </head>
+
 <body>
-<div class="ui left demo vertical inverted sidebar labeled icon menu">
-  <a class="item">
-    <i class="home icon"></i>
-    Home
-  </a>
-  <a class="item">
-    <i class="block layout icon"></i>
-    Topics
-  </a>
-  <a class="item">
-    <i class="smile icon"></i>
-    Friends
-  </a>
-</div>
-<div class="pusher">
-  <!-- ВСПЛЫВАЮЩЕЕ МЕНЮ -->
-    <div class="ui top fixed menu transition hidden computer large only">
-      <div class="ui container">
-        <a class="item">Цены</a>
-        <a class="item">Примеры работ</a>
-        <a class="item">Отзывы</a>
-        <a class="item">Контакты</a>
-        <p class="item right">893452353454</p>
-      </div>
+<div class="pusher"> <!--вся страница в пушере в этом =(((((((( НО БЕЗ НЕГО НЕЛЬЗЯ!!-->
+
+  <!-- ВСПЛЫВАЮЩЕЕ МЕНЮ ДЕСКТОП-->
+  <div class="ui top fixed menu transition hidden">
+    <div class="ui container">
+      <a class="item">Цены</a>
+      <a class="item">Примеры работ</a>
+      <a class="item">Отзывы</a>
+      <a class="item">Контакты</a>
+      <p class="item right">893452353454</p>
     </div>
-  <!-- /ВСПЛЫВАЮЩЕЕ МЕНЮ -->
+  </div>
+  <!-- /ВСПЛЫВАЮЩЕЕ МЕНЮ ДЕСКТОП-->
 
   <!-- ПЕРВЫЙ ЭКРАН ДЕСКТОП -->
-  <div class="first-screen computer large only" style="padding: 30px">
-    <!-- СТАТИЧНОЕ МЕНЮ -->
-    <div class="ui top menu transparent-background container no-shadow no-border computer large only">
+  <div class="first-screen" style="padding: 30px">
+
+    <!-- СТАТИЧНОЕ МЕНЮ ДЕСКТОП-->
+    <div class="ui top menu transparent-background container no-shadow no-border">
       <a class="item white-f5-color menu-no-border">Цены</a>
       <a class="item white-f5-color menu-no-border">Примеры работ</a>
       <a class="item white-f5-color menu-no-border">Отзывы</a>
       <a class="item white-f5-color menu-no-border">Контакты</a>
       <p class="item right white-f5-color menu-no-border">893452353454</p>
     </div>
-    <!-- /СТАТИЧНОЕ МЕНЮ -->
+    <!-- /СТАТИЧНОЕ МЕНЮ ДЕСКТОП-->
+
     <!-- ПЕРВЫЙ ЭКРАН ДЕСКТОП -->
     <div class="row first-screen-section center-text" style="padding: 250px 0">
       <div class="clip-text uppercase-text fs-60">Poizone Studio</div>
-      <h1 class="uppercase-text white-f5-color fs-48">Творческое объединение и студия звукозаписи</h1>
+      <h1 class="uppercase-text white-f5-color fs-48">Творческое объединение</h1>
+      <h1 class="uppercase-text white-f5-color fs-48">Cтудия звукозаписи</h1>
     </div>
   </div>
-
   <!-- /ПЕРВЫЙ ЭКРАН ДЕСКТОП -->
+
   <!-- ПЕРВЫЙ ЭКРАН МОБИЛЬНЫЙ -->
-    <div class="row first-screen-section center-text first-screen mobile only" style="padding: 50px 20px">
-      <div id="sidebar-activator" class="clip-text uppercase-text fs-48">Poizone Studio</div>
-      <div class="ui divider line"></div>
-      <h1 class="uppercase-text white-f5-color fs-16">Творческое объединение и студия звукозаписи</h1>
+  <div class="row first-screen-section center-text first-screen mobile only" style="padding: 50px 20px">
+    <div id="sidebar-activator" class="clip-text uppercase-text fs-48">Poizone Studio</div>
+    <div class="ui divider line"></div>
+    <h1 class="uppercase-text white-f5-color fs-16">Творческое объединение и студия звукозаписи</h1>
+  </div>
+  <!-- /ПЕРВЫЙ ЭКРАН МОБИЛЬНЫЙ-->
+
+
+  <!-- УСЛУГИ-->
+
+  <!-- УСЛУГИ ДЕСКТОП -->
+  <div class="row">
+    <div class="ui container">
+      <div class="ui divider horizontal mt-50">
+        <p class="uppercase-text fs-48">что почем </p>
+      </div>
+      <div class="ui grid">
+        <div class="two column only row vm-50 center-text">
+          <div class="column ui segment pa-50">
+            <h3 class="uppercase-text fs-20">Звукозапись</h3>
+            <p class="fw-700 fs-20">400р/час</p>
+            <div class="ui divider horizontal">
+              <i class="fs-20 material-icons">audiotrack</i>
+            </div>
+            <p class="fs-20 ff-bad fw-700">вокал, рэп, гитара, бас (и другие инструменты)</p>
+            <img class="hov_color" alt="poizone" src="img/zvykozapis1.jpg">
+          </div>
+          <div class="column ui segment pa-50">
+            <h3 class="uppercase-text fs-20">Аранжировка</h3>
+            <p class="fs-20">от <span class="fw-700"> 1000 рублей </span></p>
+            <div class="ui divider horizontal">
+              <i class="fs-20 material-icons">audiotrack</i>
+            </div>
+            <p class="fs-20">в электронном стиле для авторских песен</p>
+            <img class="hov_color" alt="poizone" src="img/aranjirovka1.jpg">
+          </div>
+        </div>
+      </div>
+      <div class="ui container center-text">
+        <img src="img/icons/microphone.png">
+      </div>
+      <div class="ui grid">
+        <div class="two column only row vm-50 center-text">
+          <div class="column ui segment pa-50">
+            <h3 class="uppercase-text fs-20">Сведение</h3>
+            <p class="fs-20">от <span class="fw-700"> 500 рублей </span></p>
+            <div class="ui divider horizontal">
+              <i class="fs-20 material-icons">audiotrack</i>
+            </div>
+            <p class="fs-20">на стоимость влияет множество факторов</p>
+            <img class="hov_color" alt="poizone" src="img/svedenie1.jpg">
+          </div>
+          <div class="column ui segment pa-50">
+            <h3 class="uppercase-text fs-20">Практика</h3>
+            <p class="fs-20">на барабанах</p>
+            <div class="ui divider horizontal">
+              <i class="fs-20 material-icons">audiotrack</i>
+            </div>
+            <p class="fs-20">цена зависит от наличия палочек и оборудования</p>
+            <img class="hov_color" alt="poizone" src="img/praktika1.jpg">
+          </div>
+        </div>
+      </div>
     </div>
-  <!-- /ПЕРВЫЙ ЭКРАН ДЕСКТОП МОБИЛЬНЫЙ-->
+  </div>
+  <!--/УСЛУГИ ДЕСКТОП-->
 
-
-  <div class="ui container">
-    <!-- УСЛУГИ -->
-    <div class="row center-text vm-50">
-      <h3>Запись</h3>
-      <p class="fw-700">400р/час</p>
-      <p>вокал, рэп, гитара, бас (и другие инструменты)</p>
-    </div>
-
+  <!--УСЛУГИ МОБ-->
+  <div class="row ui container center-text vm-50 fs-20 mobile only">
+    <h3 class="uppercase-text fs-45">Запись</h3>
+    <p class="fw-700">400р/час</p>
+    <p>вокал, рэп, гитара, бас (и другие инструменты)</p>
     <div class="ui divider horizontal">
-      <i class="dropdown icon"></i>
+      <i class="fs-48 material-icons">audiotrack</i>
     </div>
-
-    <div class="row center-text vm-50">
-      <h3>Аранжировка</h3>
+    <div class="row center-text vm-50 fs-20">
+      <h3 class="uppercase-text fs-45">Аранжировка</h3>
       <p>от <span class="fw-700"> 1000 рублей </span></p>
       <p>за легкую аранжировку в электронном стиле для авторских песен, стихов, аудиокниг</p>
     </div>
-
-    <div class="ui divider horizontal">and</div>
-
-    <div class="row center-text vm-50">
-      <h3>Сведение</h3>
+    <div class="ui divider horizontal">
+      <i class="fs-48 material-icons">audiotrack</i>
+    </div>
+    <div class="row center-text vm-50 fs-20">
+      <h3 class="uppercase-text fs-45">Сведение</h3>
       <p>от <span class="fw-700">500 рублей</span></p>
       <p>обсуждается индивидуально, так как на стоимость влияет множество факторов</p>
     </div>
-    <!-- /УСЛУГИ -->
-  </div>
-
-  <!-- ДОПОЛНИТЕЛЬНЫЕ УСЛУГИ -->
-  <div class="ui segment">
-    <div class="ui two column very relaxed grid">
-      <div class="column center-text vm-100">
-        <h3>Практика на барабанах</h3>
-      </div>
-      <div class="column center-text vm-100">
-        <p>стоимость зависит от наличия палочек и оборудования</p>
-      </div>
+    <div class="ui divider horizontal">
+      <div class=""><img src="img/icons/drumm.png"></div>
     </div>
-    <div class="ui vertical divider">and</div>
+    <div class="row center-text vm-50 fs-20">
+      <h3 class="uppercase-text fs-24">Практика на барабанах</h3>
+      <p>стоимость зависит от наличия палочек и оборудования</p>
+    </div>
   </div>
-  <!-- /ДОПОЛНИТЕЛЬНЫЕ УСЛУГИ -->
+  <!--УСЛУГИ МОб-->
+
+  <!-- /УСЛУГИ-->
 
   <!-- ПРИМЕРЫ РАБОТ -->
   <div class="row">
     <div class="ui container">
-      <!-- ДЕСКТОП -->
+      <div class="ui divider horizontal mt-50">
+        <p class="uppercase-text fs-48">примеры работ</p>
+      </div>
+
+      <!-- ДЕСКТОП ПРИМЕРЫ РАБОТ -->
       <div class="ui grid">
-        <div class="four column computer large only row vm-50">
+        <div class="four column row vm-50">
           <div class="column">
             <div class="ui segment">
               <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay"
@@ -143,12 +191,17 @@
           </div>
         </div>
       </div>
-      <!-- /ДЕСКТОП -->
-      <!-- МОБИЛЬНЫЕ -->
+      <!-- /ДЕСКТОП ПРИМЕРЫ РАБОТ -->
+
+      <!-- МОБИЛЬНЫЕ ПРИМЕРЫ РАБОТ -->
       <div class="ui grid">
         <div class="column mobile only">
           <div class="mobile only">
-            <div class="fotorama">
+            <div class="fotorama"
+                 data-nav="thumbs"
+                 data-arrows="true"
+                 data-click="false"
+                 data-swipe="true">
               <div>
                 <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay"
                         src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/779100967&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
@@ -169,26 +222,76 @@
           </div>
         </div>
       </div>
-      <!-- /МОБИЛЬНЫЕ -->
+      <!-- /МОБИЛЬНЫЕ ПРИМЕРЫ РАБОТ -->
     </div>
   </div>
+
   <!-- /ПРИМЕРЫ РАБОТ -->
+
+
+  <!-- СОЦ КНОПКИ -->
+  <div class="row">
+    <div class="ui container">
+      <p class="ff-bad fs-24 fw-700 center-text mt-50">Смотреть больше в соц сетях:</p>
+      <div class="ui grid">
+        <div class="four column row vm-50">
+          <div class="column center-text">
+            <img src="img/icons/soundcloud.png">
+          </div>
+          <div class="column center-text">
+            <img src="img/icons/instagram.png">
+          </div>
+          <div class="column center-text">
+            <a href="https://vk.com/poizone">
+              <img src="img/icons/vk.png">
+            </a>
+          </div>
+          <div class="column center-text">
+            <img src="img/icons/telegram.png">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- /СОЦ КНОПКИ -->
+
+
+  <!-- ФОТО СТУДИИ -->
+  <div class="row ui container">
+    <div class="ui divider horizontal mt-50">
+      <p class="uppercase-text fs-48">фото студии</p>
+    </div>
+    <div class="ui segment mt-50">
+      <div class="fotorama"
+           data-nav="thumbs">
+        <img alt="poizone" src="https://media.lpgenerator.ru/images/164534/slider1-7_h03RhEm.jpg#size_850x638">
+        <img alt="poizone" src="https://media.lpgenerator.ru/images/164534/slider1-8_EkHo7Zc.jpg#size_850x850">//заменить
+        <img alt="poizone" src="https://media.lpgenerator.ru/images/164534/slider1-9_7AfI0YP.jpg#size_850x638">
+        <img alt="poizone" src="https://media.lpgenerator.ru/images/164534/slider1-10_dTSPUCs.jpg#size_850x638">
+        <img alt="poizone" src="https://media.lpgenerator.ru/images/164534/jxld8tvd6jq.jpg">
+        <img alt="poizone" src="https://media.lpgenerator.ru/images/164534/dobavka-pojzon.jpg">
+        <img alt="poizone" src="https://media.lpgenerator.ru/images/164534/photo2018-09-2414-36-53.jpg">
+      </div>
+    </div>
+  </div>
+  <!-- /ФОТО СТУДИИ -->
+
 
   <!-- ПРЕИМУЩЕСТВА И FAQ -->
   <div class="ui container">
     <div class="row center-text vm-50">
-      <h4>В чем преимущество студии?</h4>
-      <p>Голос пишется без постороннего шума, после записи выполучаете грамотно скомпанованный архив, полностью готовый
-        к
-        сведению</p>
-      <button class="ui button">Смотреть больше работ в ВК</button>
+      <div class="ui divider horizontal"><p class="fs-24">Q&A</p></div>
     </div>
-
-    <div class="ui divider horizontal">FAQ</div>
-
     <div class="ui styled fluid accordion vm-50">
-      <div class="active title"><i class="dropdown icon"></i>Что такое сведение?</div>
+      <div class="active title"><i class="dropdown icon"></i>В чем преимущество студии?</div>
       <div class="active content">
+        <p>Голос пишется без постороннего шума, после записи выполучаете грамотно скомпанованный архив, полностью готовый
+          к сведению
+        </p>
+        <p>Иногда требуется корректировка нот. Это кропотливый процесс, так как мы не любим слишком роботизировать голос за счет жестких автоматических подтяжек.</p>
+      </div>
+      <div class="title"><i class="dropdown icon"></i>Что такое сведение?</div>
+      <div class="content">
         <p>Упрощенно, сведение — это обработка записи так,
           чтобы по громкости и прочим параметрам голос приятно звучал и ровно встроился в трек.
         </p>
@@ -196,8 +299,8 @@
       </div>
       <div class="title"><i class="dropdown icon"></i>Перед записью...</div>
       <div class="content">
-        <p>1  Напишите или позвоните нам за несколько дней, чтобы мы вместе смогли выбрать подходящее время;</p>
-        <p>2  Пришите нам минус, под который будете петь. Можно в телеграм, вк или ссылкой на любое облачное хранилище</p>
+        <p>1 Напишите или позвоните нам за несколько дней, чтобы мы вместе смогли выбрать подходящее время;</p>
+        <p>2 Пришите нам минус, под который будете петь. Можно в телеграм, вк или ссылкой на любое облачное хранилище</p>
       </div>
       <div class="title"><i class="dropdown icon"></i>Как добраться?</div>
       <div class="content">
@@ -207,28 +310,23 @@
         </p>
         <p>1) От остановок идти минуты 3 в сторону заправки.
         </p>
-
         <p>2) От заправки повернуть в сторону леса (вы увидите въезд со шлагбаумом).</p>
         <p>3) Дальше идти по направлению к этим воротам примерно минуту. Слева будет красное здание — это то что надо.</p>
-
         <p>4) Вам надо обойти здание и зайти через задний вход.</p>
         <p>5) Вы увидите ресепшн школы танцев, спускайтесь направо по лестнице и идите по коридору.</p>
-        <p> 6) По правой стене будет дверь студии.</p>
+        <p>6) По правой стене будет дверь студии.</p>
       </div>
       <div class="title"><i class="dropdown icon"></i>Как подготовиться?</div>
       <div class="content">
         <p>1 Убедитесь, что здоровы.</p>
         <p> Простуженный голос никакой обработкой не прикрыть.</p>
-
         <p>2 Выучите текст</p>
-        <p>На записи вы полюбому будете подсматривать в телефон, это нормально :)
-          Но с выученным текстом запись получается быстрее, вдумчевее и качественнее.</p>
-
+        <p>На записи вы полюбому будете подсматривать в телефон, это нормально :)Но с выученным текстом запись получается быстрее, вдумчевее и качественнее.</p>
         <p>3 Порепетируйте композицию полностью.</p>
         <p>Есть ошибочное мнение, что репетировать нужно прямо на записи.
-            Мы не против: ваше время — наши деньги :)
-            Тем не менее, прийти с отрепетированным материалом гораздо лучше для вас — это позволит сконцентрироваться на качестве и подаче, а не на мыслях где бы лучше вступить.</p>
-        <p>4  Возьмите с собой водичку </p>
+          Мы не против: ваше время — наши деньги :)
+          Тем не менее, прийти с отрепетированным материалом гораздо лучше для вас — это позволит сконцентрироваться на качестве и подаче, а не на мыслях где бы лучше вступить.</p>
+        <p>4 Возьмите с собой водичку </p>
       </div>
     </div>
   </div>
