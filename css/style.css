@@ -83,7 +83,6 @@ img{
   content: '';
 }
 
-
 .ff-bad{
   font-family: 'Bad Script', cursive;
 }
@@ -128,6 +127,10 @@ img{
 
 .icon-large{
   font-size: 6rem;
+}
+
+.mb-20{
+  margin-bottom: 20px;
 }
 
 .no-border {
