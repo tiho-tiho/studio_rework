@@ -2,7 +2,7 @@ html, body {
   height: 100%;
 }
 
-img{
+img.hov_active{
   -webkit-transition: 2s;
   -moz-transition: 2s;
   -ms-transition: 2s;
@@ -17,12 +17,12 @@ img{
 /*  width: 100% !important;*/
 /*}*/
 
-.hov_color:hover{
-  -webkit-transition: 2s;
-  -moz-transition: 2s;
-  -ms-transition: 2s;
-  -o-transition: 2s;
-  transition: 2s;
+img.hov_active:hover{
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  -ms-transition: 1s;
+  -o-transition: 1s;
+  transition: 1s;
   -webkit-filter: grayscale(0%);
   filter: grayscale(0%);
 }
@@ -218,3 +218,15 @@ img{
 .wi-100{
   width: 100%;!important;
 }
+
+.wi_slider{
+  width: 476px !important;
+  height: 500px !important;
+}
+
+.custom-container {
+  width: 800px;
+  margin: 0 auto;
+}
+
+

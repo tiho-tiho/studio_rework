@@ -15,6 +15,13 @@
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="css/fotorama.css">
   <link href="https://fonts.googleapis.com/css2?family=Bad+Script&display=swap" rel="stylesheet">
+  <script type="text/javascript" src="https://vk.com/js/api/openapi.js?162"></script>
+  <!-- VK Widget -->
+  <div class="tablet computer large screen widescreen only" id="vk_community_messages"></div>
+  <script type="text/javascript">
+    VK.Widgets.CommunityMessages("vk_community_messages", 134010421, {disableExpandChatSound: "1",disableNewMessagesSound: "1"});
+  </script>
+  <!-- /VK Widget -->
 </head>
 
 <body>
@@ -23,11 +30,11 @@
   <!-- ВСПЛЫВАЮЩЕЕ МЕНЮ ДЕСКТОП-->
   <div class="ui top fixed menu transition hidden tablet computer large screen widescreen only">
     <div class="ui container">
-      <a class="item">Цены</a>
-      <a class="item">Примеры работ</a>
-      <a class="item">Отзывы</a>
-      <a class="item">Контакты</a>
-      <p class="item right">893452353454</p>
+      <a class="item" href="#price">Цены</a>
+      <a class="item" href="#works">Примеры работ</a>
+      <a class="item" href="#feedback">Отзывы</a>
+      <a class="item" href="#phone">Контакты</a>
+      <p class="item right" style="user-select: text;-webkit-user-drag:none">+79190307607</p>
     </div>
   </div>
   <!-- /ВСПЛЫВАЮЩЕЕ МЕНЮ ДЕСКТОП-->
@@ -37,11 +44,11 @@
 
     <!-- СТАТИЧНОЕ МЕНЮ ДЕСКТОП-->
     <div class="ui top menu transparent-background container no-shadow no-border tablet computer large screen widescreen only">
-      <a class="item white-f5-color menu-no-border">Цены</a>
-      <a class="item white-f5-color menu-no-border">Примеры работ</a>
-      <a class="item white-f5-color menu-no-border">Отзывы</a>
-      <a class="item white-f5-color menu-no-border">Контакты</a>
-      <p class="item right white-f5-color menu-no-border">893452353454</p>
+      <a class="item white-f5-color menu-no-border" href="#price">Цены</a>
+      <a class="item white-f5-color menu-no-border" href="#works">Примеры работ</a>
+      <a class="item white-f5-color menu-no-border" href="#feedback">Отзывы</a>
+      <a class="item white-f5-color menu-no-border" href="#phone">Контакты</a>
+      <p class="item right white-f5-color menu-no-border" style="user-select: text">+79190307607</p>
     </div>
     <!-- /СТАТИЧНОЕ МЕНЮ ДЕСКТОП-->
 
@@ -66,9 +73,9 @@
   <!-- УСЛУГИ-->
 
   <!-- УСЛУГИ ДЕСКТОП -->
-  <div class="row tablet computer large screen widescreen only">
+  <div class="row tablet computer large screen widescreen only" >
     <div class="ui container">
-      <div class="ui divider horizontal mt-50">
+      <div id="price" class="ui divider horizontal mt-50">
         <p class="uppercase-text fs-48">что почем </p>
       </div>
 
@@ -82,7 +89,7 @@
                 <i class="fs-20 material-icons">audiotrack</i>
               </div>
               <p class="fs-20">вокал, рэп, гитара, бас (и другие инструменты)</p>
-              <img class="hov_color wi-100" alt="poizone" src="img/zvykozapis1.jpg">
+              <img class="hov_active wi-100" alt="poizone" src="img/zvykozapis1.jpg">
             </div>
           </div>
           <div class="column">
@@ -93,7 +100,7 @@
                 <i class="fs-20 material-icons">audiotrack</i>
               </div>
               <p class="fs-20">в электронном стиле для авторских песен</p>
-              <img class="hov_color wi-100" alt="poizone" src="img/aranjirovka1.jpg">
+              <img class="hov_active wi-100" alt="poizone" src="img/aranjirovka1.jpg">
             </div>
           </div>
         </div>
@@ -113,7 +120,7 @@
                 <i class="fs-20 material-icons">audiotrack</i>
               </div>
               <p class="fs-20">на стоимость влияет множество факторов</p>
-              <img class="hov_color wi-100" alt="poizone" src="img/svedenie1.jpg">
+              <img class="hov_active wi-100" alt="poizone" src="img/svedenie1.jpg">
             </div>
           </div>
           <div class="column">
@@ -124,7 +131,7 @@
                 <i class="fs-20 material-icons">audiotrack</i>
               </div>
               <p class="fs-20">цена зависит от наличия оборудования</p>
-              <img class="hov_color wi-100" alt="poizone" src="img/praktika1.jpg">
+              <img class="hov_active wi-100" alt="poizone" src="img/praktika1.jpg">
             </div>
           </div>
         </div>
@@ -155,7 +162,7 @@
       <p>обсуждается индивидуально, так как на стоимость влияет множество факторов</p>
     </div>
     <div class="ui divider horizontal">
-      <div class=""><img src="img/icons/drumm.png"></div>
+      <i class="fs-48 material-icons">audiotrack</i>
     </div>
     <div class="row center-text vm-50 fs-20">
       <h3 class="uppercase-text fs-20">Практика на барабанах</h3>
@@ -167,7 +174,7 @@
   <!-- /УСЛУГИ-->
 
   <!-- ПРИМЕРЫ РАБОТ -->
-  <div class="row">
+  <div id="works" class="row">
 
 <!-- ДЕСКТОП ПРИМЕРЫ РАБОТ -->
  <div class="ui container computer large screen widescreen only">
@@ -207,9 +214,9 @@
  <!-- /ДЕСКТОП ПРИМЕРЫ РАБОТ -->
 
       <!-- МОБИЛЬНЫЕ ПРИМЕРЫ РАБОТ -->
-      <div class="ui container">
+      <div class="ui container mobile only">
         <div class="ui divider horizontal">
-          <p class="fs-20 fw-700 center-text mobile only">Примеры работ</p></div>
+          <p class="fs-20 fw-700 center-text">Примеры работ</p></div>
         <div class="ui grid mt-50">
           <div class="column mobile only">
             <div class="mobile only">
@@ -247,22 +254,20 @@
   <!-- СОЦ КНОПКИ -->
   <div class="row">
     <div class="ui container">
-      <p class="ff-bad fs-24 fw-700 center-text mt-50">Больше в соц сетях</p>
+      <p class="fs-24 fw-700 center-text mt-50">Больше в соц сетях</p>
       <div class="ui grid">
         <div class="four column row vm-50">
           <div class="column center-text">
-            <img src="img/icons/soundcloud.png">
+            <a target="blank" href="https://soundcloud.com/thepoizone"><img src="img/icons/soundcloud.png"></a>
           </div>
           <div class="column center-text">
-            <img src="img/icons/instagram.png">
+            <a target="blank" href="https://www.instagram.com/poizone.music/"><img src="img/icons/instagram.png"></a>
           </div>
           <div class="column center-text">
-            <!--<a href="https://vk.com/poizone">-->
-              <img src="img/icons/vk.png">
-            <!--</a>-->
+            <a target="blank" href="https://vk.com/poizone"><img src="img/icons/vk.png"></a>
           </div>
           <div class="column center-text">
-            <img src="img/icons/telegram.png">
+            <a target="blank" href="http://t.me/poizone_bot"><img src="img/icons/telegram.png"></a>
           </div>
         </div>
       </div>
@@ -271,13 +276,10 @@
   <!-- /СОЦ КНОПКИ -->
 
 
-  <!-- ФОТО СТУДИИ -->
-  <div class="row ui container">
+  <!-- ФОТО СТУДИИ ДЕСКТОП-->
+  <div class="row ui custom-container computer large screen widescreen only">
     <div class="ui divider horizontal mt-50">
-      <p class="uppercase-text fs-48 tablet computer large screen widescreen only">фото</p>
-    </div>
-    <div class="ui divider horizontal mt-50">
-      <p class="uppercase-text fs-20 mobile only">фото</p>
+      <p class="uppercase-text fs-48 tablet ">фото</p>
     </div>
     <div class="ui segment mt-50">
       <div class="fotorama" data-width="100%" data-nav="thumbs" data-arrows="true">
@@ -285,13 +287,46 @@
         <img alt="poizone" src="https://media.lpgenerator.ru/images/164534/slider1-8_EkHo7Zc.jpg#size_850x850">//заменить
         <img alt="poizone" src="https://media.lpgenerator.ru/images/164534/slider1-9_7AfI0YP.jpg#size_850x638">
         <img alt="poizone" src="https://media.lpgenerator.ru/images/164534/slider1-10_dTSPUCs.jpg#size_850x638">
-        <img alt="poizone" src="https://media.lpgenerator.ru/images/164534/jxld8tvd6jq.jpg">
         <img alt="poizone" src="https://media.lpgenerator.ru/images/164534/dobavka-pojzon.jpg">
         <img alt="poizone" src="https://media.lpgenerator.ru/images/164534/photo2018-09-2414-36-53.jpg">
       </div>
     </div>
   </div>
-  <!-- /ФОТО СТУДИИ -->
+  <!-- /ФОТО СТУДИИ ДЕСКТОП-->
+
+  <!-- ФОТО СТУДИИ МОБ -->
+  <div class="row ui container mobile only">
+    <div class="ui divider horizontal">
+      <p class="uppercase-text fs-20">фото</p>
+    </div>
+    <div class="ui segment mt-50">
+      <div class="fotorama" data-width="100%" data-nav="thumbs" data-arrows="true">
+        <img alt="poizone" src="https://media.lpgenerator.ru/images/164534/slider1-7_h03RhEm.jpg#size_850x638">
+        <img alt="poizone" src="https://media.lpgenerator.ru/images/164534/slider1-8_EkHo7Zc.jpg#size_850x850">//заменить
+        <img alt="poizone" src="https://media.lpgenerator.ru/images/164534/slider1-9_7AfI0YP.jpg#size_850x638">
+        <img alt="poizone" src="https://media.lpgenerator.ru/images/164534/slider1-10_dTSPUCs.jpg#size_850x638">
+        <img alt="poizone" src="https://media.lpgenerator.ru/images/164534/dobavka-pojzon.jpg">
+        <img alt="poizone" src="https://media.lpgenerator.ru/images/164534/photo2018-09-2414-36-53.jpg">
+      </div>
+    </div>
+  </div>
+  <!-- /ФОТО СТУДИИ МОБ-->
+
+
+  <!-- ОТЗЫВЫ -->
+  <div class="row ui custom-container tablet computer large screen widescreen only">
+    <div id="feedback" class="ui divider horizontal mt-50">
+      <p class="uppercase-text fs-48 tablet computer large screen widescreen only">отзывы</p>
+    </div>
+    <div class="ui segment mt-50">
+      <div class="fotorama" data-width="100%" data-nav="thumbs" data-arrows="true">
+        <img alt="poizone" src="img/feedback1.jpg">
+        <img alt="poizone" src="img/feedback2.jpg">
+        <img alt="poizone" src="img/feedback3.jpg">
+      </div>
+    </div>
+  </div>
+  <!-- /ОТЗЫВЫ -->
 
 
   <!-- ПРЕИМУЩЕСТВА И FAQ -->
@@ -349,6 +384,15 @@
   </div>
   <!-- /ПРЕИМУЩЕСТВА И FAQ  -->
 
+  <!--ПОЗВОНИТЬ-->
+  <div id="phone" class=" ui container row tablet computer large screen widescreen only mt-50 mb-20">
+    <div class="ui segment center-text" style="user-select: text;-webkit-user-drag:none">
+      <h4 class="fs-48">Ленина 183 (возле СК Олимп)</h4>
+      <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A231937df63be2ab50ef322ecfdeda566890485a653acf1adbb38c2095b733662&amp;width=100%25&amp;height=278&amp;lang=ru_RU&amp;scroll=true"></script>
+    </div>
+  </div>
+  <!--/ПОЗВОНИТЬ>
+
   <!-- ФУТЕР -->
   <div class="ui inverted vertical footer segment">
     <div class="ui center aligned container vm-50">
@@ -356,17 +400,17 @@
         <div class="five wide column">
           <h4 class="ui inverted header">Контакты</h4>
           <div class="ui inverted link list">
-            <a href="#" class="item">info@poizone.ru</a>
-            <a href="#" class="item">8 919 030 76 07</a>
+            <p class="item" style="user-select: text;-webkit-user-drag:none">info@poizone.ru</p>
+            <p class="item" style="user-select: text;-webkit-user-drag:none">8 919 030 76 07</p>
           </div>
         </div>
         <div class="five wide column">
           <h4 class="ui inverted header">Follow us</h4>
           <div class="ui inverted link list">
-            <a href="#" class="item">ВКонтакте</a>
-            <a href="#" class="item">Soundcloud</a>
-            <a href="#" class="item">Instagram</a>
-            <a href="#" class="item">Beatport</a>
+            <a target="blank"  href="https://vk.com/poizone" class="item">ВКонтакте</a>
+            <a target="blank"  href="https://soundcloud.com/thepoizone" class="item">Soundcloud</a>
+            <a target="blank" href="https://www.instagram.com/poizone.music/" class="item">Instagram</a>
+            <a target="blank" href="http://t.me/poizone_bot" class="item">Beatport</a>
           </div>
         </div>
         <div class="six wide column">
@@ -380,11 +424,14 @@
       </div>
     </div>
   </div>
+
+
   <!-- /ФУТЕР -->
   <script src="js/jquery.js"></script>
   <script src="js/semantic.js"></script>
   <script src="js/init.js"></script>
   <script src="js/fotorama.js"></script>
+  <script src="js/wiget_vk.js"></script>
 </div>
 </body>
 </html>

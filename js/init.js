@@ -2,6 +2,7 @@ $(document).ready(function () {
   initHeader();
   initSidebar();
   initAccordion();
+  initSmoothScroll();
 });
 
 function initAccordion() {
@@ -24,3 +25,28 @@ function initHeader() {
       }
     });
 }
+
+function initSmoothScroll() {
+  $("a[href='#works']").click(function () {
+    var _href = $(this).attr("href");
+    $("html, body").animate({scrollTop: $(_href).offset().top - 50});
+    return false;
+  });
+  $("a[href='#price']").click(function () {
+    var _href = $(this).attr("href");
+    $("html, body").animate({scrollTop: $(_href).offset().top - 50});
+    return false;
+  });
+  $("a[href='#feedback']").click(function () {
+    var _href = $(this).attr("href");
+    $("html, body").animate({scrollTop: $(_href).offset().top - 50});
+    return false;
+  });
+  $("a[href='#phone']").click(function () {
+    var _href = $(this).attr("href");
+    $("html, body").animate({scrollTop: $(_href).offset().top - 50});
+    return false;
+  });
+}
+
+
