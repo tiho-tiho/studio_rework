@@ -43,6 +43,17 @@ img.hov_active:hover{
   width: 73px;
 }
 
+
+.bg-pattern-txt{
+  background-image: url("../img/wheat.png")!important;
+  background-repeat: repeat-x!important;
+}
+
+.bg-pattern-container{
+  background-image: url(../img/wheat.png)!important;
+  background-repeat: repeat-x;
+}
+
 .center-text {
   text-align: center;
 }
@@ -88,8 +99,8 @@ img.hov_active:hover{
 }
 
 .first-screen {
-  /*background-image: url(../img/back.jpg);*/
-  background: #263238;
+  background-image: url(../img/wheat.png);
+  /*background: #263238;*/
 }
 
 .fw-700 {
