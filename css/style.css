@@ -43,15 +43,20 @@ img.hov_active:hover{
   width: 73px;
 }
 
-
-.bg-pattern-txt{
-  background-image: url("../img/wheat.png")!important;
-  background-repeat: repeat-x!important;
-}
-
-.bg-pattern-container{
+.bg-footer-mobile{
   background-image: url(../img/wheat.png)!important;
   background-repeat: repeat-x;
+}
+
+.bg-footer-desktop{
+  background-image: url(../img/ep_naturalblack.png)!important;
+  background-repeat: repeat-x;
+}
+
+
+.btn-form{
+  background: #0f0f10 !important;
+  width: 100% !important;
 }
 
 .center-text {
@@ -98,9 +103,12 @@ img.hov_active:hover{
   font-family: 'Bad Script', cursive;
 }
 
-.first-screen {
+.first-screen-desktop {
+  background-image: url(../img/ep_naturalblack.png);
+}
+
+.first-screen-mobile {
   background-image: url(../img/wheat.png);
-  /*background: #263238;*/
 }
 
 .fw-700 {
