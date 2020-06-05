@@ -49,7 +49,7 @@ img.hov_active:hover{
 }
 
 .bg-footer-desktop{
-  background-image: url(../img/ep_naturalblack.png)!important;
+  background-image: url(../img/xv.png)!important; /*фон футера десктоп*/
   background-repeat: repeat-x;
 }
 
@@ -71,7 +71,7 @@ img.hov_active:hover{
   text-align: center;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  background-image: url(../img/background2.jpg);
+  background-image: url(../img/background2.jpg); /*фон текста первого экрана*/
 }
 
 .clip-text:after {
@@ -104,11 +104,11 @@ img.hov_active:hover{
 }
 
 .first-screen-desktop {
-  background-image: url(../img/ep_naturalblack.png);
+  background-image: url(../img/xv.png); /*фон первого экрана десктоп*/
 }
 
 .first-screen-mobile {
-  background-image: url(../img/wheat.png);
+  background-image: url(../img/wheat.png); /*фон моб*/
 }
 
 .fw-700 {
