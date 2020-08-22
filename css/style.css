@@ -53,6 +53,9 @@ img.hov_active:hover{
   background-repeat: repeat-x;
 }
 
+.bg-yellow{
+  background-color: #ffdd37;
+}
 
 .btn-form{
   background: #0f0f10 !important;
@@ -154,6 +157,10 @@ img.hov_active:hover{
 
 .mb-20{
   margin-bottom: 20px;
+}
+
+.mb-50{
+  margin-bottom: 50px;
 }
 
 .no-border {
