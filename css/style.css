@@ -27,6 +27,13 @@ img.hov_active:hover{
   filter: grayscale(0%);
 }
 
+.ui.top.menu a:hover{
+  color:orange !important;
+}
+
+/*.red-hover a:hover{*/
+/*  color:red !important;*/
+/*}*/
 
 .ui.menu .item:before {
   width: 0;
@@ -163,6 +170,10 @@ img.hov_active:hover{
   margin-bottom: 50px;
 }
 
+.mt-20{
+  margin-top: 20px;
+}
+
 .no-border {
   border: none !important;
 }
@@ -180,6 +191,10 @@ img.hov_active:hover{
   padding: 0;
 }
 
+.pa-left-right{
+  padding-left: 100px!important;
+  padding-right: 100px!important;
+}
 .pa-desktop{
   padding: .5em .75em;
 }
@@ -190,6 +205,10 @@ img.hov_active:hover{
 
 .pa-50-20{
   padding: .50px .20px;
+}
+
+.pa-10{
+  padding: 10px !important;
 }
 
 .pa-50{
