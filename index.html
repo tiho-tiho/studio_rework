@@ -15,7 +15,7 @@
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="css/fotorama.css">
   <link href="https://fonts.googleapis.com/css2?family=Bad+Script&display=swap" rel="stylesheet">
-  <script type="text/javascript" src="https://vk.com/js/api/openapi.js?162"></script>
+<!--  <script type="text/javascript" src="https://vk.com/js/api/openapi.js?162"></script>-->
 
 </head>
 
@@ -38,7 +38,7 @@
   <!-- /ВСПЛЫВАЮЩЕЕ МЕНЮ ДЕСКТОП-->
 
   <!-- ПЕРВЫЙ ЭКРАН ДЕСКТОП -->
-  <div class="first-screen-desktop tablet computer large screen widescreen only" style="padding: 30px">
+  <div class="first-screen-desktop tablet computer large screen widescreen only pa-30">
 
     <!-- СТАТИЧНОЕ МЕНЮ ДЕСКТОП-->
     <div class="ui top menu transparent-background container no-shadow no-border tablet computer large screen widescreen only">
@@ -48,8 +48,9 @@
         <a class="item white-f5-color menu-no-border" href="https://open.spotify.com/album/4ulmQr8TNBkEHc8D4Z9VSR">Spotify</a>
         <a class="item white-f5-color menu-no-border" href="https://vk.com/poizone">VKontakte</a>
         <a class="red-hover item white-f5-color menu-no-border" href="https://www.youtube.com/channel/UC4nBWWE2sAYIu3OLWmo0QYg">YouTube</a>
+        <a class="item white-f5-color menu-no-border" href="https://music.yandex.ru/artist/5516711">Яндекс.Музыка</a>
 
-        <a class="item right white-f5-color menu-no-border" href="https://music.yandex.ru/artist/5516711">Яндекс.Музыка</a>
+        <a class="item right white-f5-color menu-no-border glow-on-hover js-content-center" href="https://poizone.ru/donat.html">Donation</a>
 
 <!--        <a class="item right white-f5-color menu-no-border" href="https://poizone.ru/donat">Donation</a>-->
     </div>
@@ -66,7 +67,7 @@
 
   <!-- ПЕРВЫЙ ЭКРАН МОБИЛЬНЫЙ -->
   <div class="row  center-text first-screen-mobile mobile only" style="padding: 50px 20px">
-    <div id="sidebar-activator" class="clip-text uppercase-text fs-60">The poizone</div>
+    <div id="sidebar-activator" class="clip-text uppercase-text fs-60 js-content-center">The poizone</div>
     <div class="ui divider line"></div>
     <h1 class="uppercase-text white-f5-color fs-16">Electronic/ experimental/ dnb</h1>
   </div>
@@ -115,12 +116,11 @@
   <!-- /альбом -->
 
   <!-- ПРИМЕРЫ РАБОТ -->
-  <div id="works" class="row">
-
+  <div class="row">
 <!-- ДЕСКТОП ПРИМЕРЫ РАБОТ -->
  <div class="ui container computer large screen widescreen only">
    <div class="ui divider horizontal mt-50">
-     <img src="img/icons/sound-waves.png">
+     <img src="img/icons/sound-waves.png" alt="poizone">
 <!--     <span class="center-text">More from The Poizone</span>-->
      <p class="uppercase-text tablet">More from [The Poizone]</p>
    </div>
@@ -222,15 +222,15 @@
       <div class="ui inverted segment center-text ">
 <!--          <div class="pa-10"> <button class="ui pa-50-20 inverted button">Standard</button></div>-->
           <div class="pa-10 mt-20"> <button onclick="document.location='https://soundcloud.com/thepoizone'" class="pa-left-right ui inverted orange button">SoundCloud</button></div>
+        <div class="pa-10"><button onclick="document.location='https://music.apple.com/ru/artist/the-poizone/1474692625'" class="pa-left-right ui inverted violet button">ITunes</button></div>
           <div class="pa-10"><button onclick="document.location='https://www.youtube.com/channel/UC4nBWWE2sAYIu3OLWmo0QYg'" class="pa-left-right ui inverted red button">YouTube</button></div>
           <div class="pa-10"><button onclick="document.location='https://vk.com/poizone'" class="pa-left-right ui inverted primary button">VKontakte</button></div>
           <div class="pa-10"><button onclick="document.location='https://music.yandex.ru/artist/5516711'" class="pa-left-right ui inverted yellow button">Я.Музыка</button></div>
-          <div class="pa-10"><button onclick="document.location='https://music.apple.com/ru/artist/the-poizone/1474692625'" class="pa-left-right ui inverted blue button">ITunes</button></div>
           <div class="pa-10"><button onclick="document.location='https://divisionbassdigitallabel.bandcamp.com/album/space-invaders-ep'" class="pa-left-right ui inverted olive button">BandCamp</button></div>
           <div class="pa-10"><button onclick="document.location='https://open.spotify.com/album/4ulmQr8TNBkEHc8D4Z9VSR'" class="pa-left-right ui inverted green button">Spotify</button></div>
           <div class="pa-10"><button onclick="document.location='https://www.instagram.com/poizone.music/'" class="pa-left-right ui inverted teal button">Instagram</button></div>
 
-          <div class="pa-10"><button onclick="document.location='https://yandex.ru/maps/geo/obninsk/53056956/?from=tabbar&ll=36.597827%2C55.102475&source=serp_navig&z=11'" class="pa-left-right ui inverted violet button">Show map</button></div>
+          <div class="pa-10"><button onclick="document.location='https://yandex.ru/maps/geo/obninsk/53056956/?from=tabbar&ll=36.597827%2C55.102475&source=serp_navig&z=11'" class="pa-left-right ui inverted blue button">Show map</button></div>
 <!--          <div class="pa-10"><button onclick="document.location='https://soundcloud.com/thepoizone'" class="pa-left-right ui inverted purple button">Purple</button></div>-->
 <!--          <div class="center-text mb-20 mt-20"><img src="img/icons/donat.png"></div>-->
 <!--          <div class="pa-10 mb-20"><button onclick="document.location='https://poizone.ru/donat'" class="pa-left-right ui inverted pink button">Donation</button></div>-->
@@ -340,7 +340,7 @@
   <script src="js/semantic.js"></script>
   <script src="js/init.js"></script>
   <script src="js/fotorama.js"></script>
-  <script src="js/wiget_vk.js"></script>
+<!--  <script src="js/wiget_vk.js"></script>-->
 </div>
 </body>
 </html>

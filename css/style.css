@@ -2,6 +2,70 @@ html, body {
   height: 100%;
 }
 
+
+/* НЕОНОВАЯ КНОПКА */
+.glow-on-hover {
+  width: 220px !important;
+  height: 50px !important;
+  border: none !important;
+  outline: none !important;
+  /*color: #fff !important;;*/
+  /*background: #111 !important;*/
+  /*cursor: pointer !important;*/
+  /*position: relative !important;*/
+  z-index: 0 !important;
+  border-radius: 10px !important;
+}
+
+.glow-on-hover:before {
+  content: '' !important;;
+  background: linear-gradient(45deg, purple, white, #00b5ad,#fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000) !important;;
+  /*position: absolute !important;;*/
+  top: -2px !important;
+  left:-2px !important;
+  background-size: 400% !important;
+  z-index: -1 !important;
+  filter: blur(5px) !important;
+  width: calc(100% + 4px) !important;
+  height: calc(100% + 4px);
+  animation: glowing 1s linear infinite !important;
+  opacity: 0 !important;
+  transition: opacity .3s ease-in-out !important;
+  border-radius: 10px !important;
+}
+
+.glow-on-hover:active {
+  /*color: #000 !important;*/
+}
+
+.glow-on-hover:active:after {
+  background: transparent !important;;
+}
+
+.glow-on-hover:hover:before {
+  opacity: 1 !important;
+}
+
+.glow-on-hover:after {
+  z-index: -1  !important;
+  content: '' !important;
+  position: absolute !important;
+  width: 100% !important;
+  height: 100% !important;
+  background: #191914 !important;
+  left: 0 !important;
+  top: 0 !important;
+  border-radius: 10px !important;
+}
+
+/*@keyframes glowing {*/
+/*  0% { background-position: 0 0 !important; }*/
+/*  50% { background-position: 400% 0 !important; }*/
+/*  100% { background-position: 0 0 !important; }*/
+/*}*/
+
+/* /НЕОНОВАЯ КНОПКА */
+
 img.hov_active{
   -webkit-transition: 2s;
   -moz-transition: 2s;
@@ -158,6 +222,10 @@ img.hov_active:hover{
   font-size: 88px;
 }
 
+.js-content-center{
+  justify-content: center;
+}
+
 .icon-large{
   font-size: 6rem;
 }
@@ -203,6 +271,10 @@ img.hov_active:hover{
   padding-top: 20px;
 }
 
+.pa-30{
+  padding: 30px;
+}
+
 .pa-50-20{
   padding: .50px .20px;
 }
@@ -213,6 +285,10 @@ img.hov_active:hover{
 
 .pa-50{
   padding: 50px !important;
+}
+
+.pa-left-80{
+  padding-left: 80px !important;
 }
 
 .txt-center {
